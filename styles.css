@@ -1,0 +1,35 @@
+.product-accordian {
+    margin-top: 20px;
+}
+
+div.icon-down1, div.icon-down2, div.icon-down3 {
+    font-family: 'Glyphicons Halflings';
+    height: 14px;
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+}
+
+div.icon-up1, div.icon-up2, div.icon-up3 {
+    font-family: 'Glyphicons Halflings';
+    height: 14px;
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.panel-title a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #656565;
+    width: 100%;
+    display: inline-block;
+    outline: none;
+
+}
+
+.panel-heading {
+    background-color: #fcfcfc;
+}
+
+

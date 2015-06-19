@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Extending Twitter Bootstraps accordion</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div class="product-accordian">
+        <div class="panel-group" id="accordion">
+            <div id="panel1" class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a id="test1" onclick="iconSwap1()" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Product Details <div class="glyphicon glyphicon-chevron-up icon-up1"></div><div class="glyphicon glyphicon-chevron-down icon-down1 hidden"></div></a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="tab-pane" id="product-details">
+                            <h3>Product Detail:</h3>
+                            <h4 class="product-specs">Product Specifications</h4>
+                            <div class="product-specs-list">product specification goes here...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel2" class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a id="test2" onclick="iconSwap2()" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Warranty &amp; Returns<div class="glyphicon glyphicon-chevron-up icon-up2"></div><div class="glyphicon glyphicon-chevron-down icon-down2 hidden"></div></a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="tab-pane" id="warranty-and-returns">
+                            <h3>Warranty &amp; Returns:</h3>
+                            <div>
+                                <p>
+                                    You can return your product any time after your initial term. Call or e-mail us, and we will e-mail you a free return shipping label. Once we receive your product, you won't be responsible for any further payments. <a href="/return_policy">click here</a> for details
+                                    <br /><br />
+                                    In addition, please contact us within 24 hours of receipt if your product is received damaged or defective and we will issue a replacement. If the shipping packaging is damaged please refuse delivery and contact us immediately.
+                                    <br /><br />
+                                    Non-Returnable Items:<br/>
+                                    TVs, Exercise equipment, Major appliances (such as washers, dryers, dishwashers, stoves &amp; refrigerators). 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel3" class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a id="test3" onclick="iconSwap3()" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Reviews<div class="glyphicon glyphicon-chevron-up icon-up3"></div><div class="glyphicon glyphicon-chevron-down icon-down3 hidden"></div></a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="tab-pane" id="reviews">
+                            <h3>Reviews:</h3>
+                            <div>
+                                <p>There are no reviews yet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
